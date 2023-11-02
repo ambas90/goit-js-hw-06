@@ -7,5 +7,4 @@ textInput.addEventListener("input", (event) => {
   } else {
     textOutput.textContent = event.currentTarget.value;
   }
-  console.log(textInput.value);
 });
