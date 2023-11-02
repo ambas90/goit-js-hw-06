@@ -11,7 +11,6 @@ function getRandomHexColor() {
 }
 
 function createBoxes(amount) {
-  console.log("creator został wywołany");
   let markup = "";
   for (let i = 1; i <= amount; i++) {
     markup += `<div style="background-color:${getRandomHexColor()}; width:${boxSize}px;height:${boxSize}px"></div>`;
